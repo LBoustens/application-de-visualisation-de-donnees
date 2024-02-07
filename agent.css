@@ -1,0 +1,149 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(img/background_linered);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    background-color: #141414;
+    font-size: 20px;
+
+}
+
+
+nav ul li {
+    padding-left: 20px;
+}
+
+#navbarNavDropdown {
+    padding-left: 50px;
+}
+
+
+#portrait {
+    width: 100%;
+    height: auto;
+}
+
+.bg-primary {
+    background-image: url(img/background_agent.png);
+}
+
+#abilitie {
+    width: 30%;
+    height: auto;
+}
+
+.filter {
+    -webkit-filter: brightness(1) invert(1);
+    filter: brightness(1) invert(1);
+}
+
+#middle {
+    margin-left: 10%;
+}
+
+#role_agent {
+    max-width: 50%;
+}
+
+#description {
+    text-align: justify;
+    white-space: normal;
+}
+
+.condensed-description {
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+.order-left {
+    flex-direction: row-reverse;
+    /* Inverse l'ordre des éléments pour afficher "left" à droite */
+}
+
+.order-right {
+    flex-direction: row;
+    /* Garde l'ordre normal des éléments */
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* Style pour le select non ouvert */
+.filtre {
+    background: #fd4556;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    min-width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    color: #f5f5f5;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.filtre:hover {
+    background: #fd4556;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    min-width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    color: #f5f5f5;
+    cursor: pointer;
+    z-index: 99;
+}
+
+/* Style pour les options du select */
+.filtre option {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.filterbox {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer {
+    width: 100%;
+    background-color: #141414;
+    padding-top: 20px;
+    color: white !important;
+}
+
+#foot {
+    padding: 0px !important;
+}
+
+footer ul li a{
+    color: white !important;
+}
+
+#timeline {
+    background-color: #141414;
+}

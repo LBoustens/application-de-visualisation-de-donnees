@@ -1,0 +1,62 @@
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    background-color: #141414;
+    font-size: 20px;
+
+}
+
+
+nav ul li {
+    padding-left: 20px;
+}
+
+#navbarNavDropdown {
+    padding-left: 50px; 
+}
+
+header {
+    background-image: url("img/hero.webp");
+    background-size: cover;
+    color: white;
+    height: 850px;
+   
+
+}
+
+#hero {
+padding-top: 5%;
+padding-left: 5%;
+}
+
+header p{
+    margin-bottom: 100px;
+}
+
+#lastp {
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: #141414;
+    
+    color: white !important;
+}
+
+#foot {
+    padding: 0px !important;
+}
+
+footer ul li a{
+    color: white !important;
+}
+
+#timeline {
+    background-color: #141414;
+}
+
